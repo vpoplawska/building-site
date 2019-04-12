@@ -634,9 +634,86 @@ border-bottom: 10px solid #2f5572;
         margin-top: 0;   
     }
 
+.section-tittle{
+    font-size: 2.55rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (min-width: 530px) {
+
+.section-tittle{
+        font-size: 3.75rem
+}
+    }
+
+.section-tittle strong{
+        font-weight: 500;
+    }
+
+.section-tittle__icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.6rem;
+    }
+
+@media (min-width: 530px) {
+
+.section-tittle__icon{
+            margin-right: 0.5rem;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: inline-block
+    }
+    }
+
+.feature-item{
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+@media (min-width: 530px) {
+
+.feature-item{
+        padding-left: 94px
+}
+    }
+
+.feature-item__icon{
+        display:block;
+        margin: 0 auto;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__icon{
+            position: absolute;
+            left:0
+    }
+    }
+
+.feature-item__tittle{
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: .7rem;
+        margin-bottom: .8rem;
+        text-align: center;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__tittle{
+            text-align: left;
+            font-size: 1.875rem;
+            margin-top: 0
+    }
+    }
+
 .generic-content-container p{
+        font-weight: 300;
         line-height: 1.65;
-        margin: 1.8rem 0;
+        margin:0 0 1.8rem 0;
     }
 
 @media (min-width: 530px) {
@@ -667,6 +744,11 @@ border-bottom: 10px solid #2f5572;
             width: 37%;
         }
 
+        .row__medium-6{
+            float:left;
+            width: 50%;   
+        }
+
         .row__medium-8{
             float: left;
             width: 66.33%;
@@ -679,6 +761,14 @@ border-bottom: 10px solid #2f5572;
         .row __b-margin-until-medium{
             margin-bottom: 0;
         }
+    }
+
+.row--gutters-large{
+        margin-right: -100px;
+    }
+
+.row--gutters-large > div{
+        padding-right: 100px;
     }
 
 .row--gutters{
